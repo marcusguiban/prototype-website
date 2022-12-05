@@ -1,0 +1,57 @@
+.btn {
+    background-color: green;
+    color: black;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid green;
+    border-radius: 4px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.btn:active {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}
+
+.centered-btn-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.form input:focus {
+    outline: none;
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid green;
+}
+
+.form textarea:focus {
+    outline: none;
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.1);
+    border: 3px solid green;
+}
+
+.form input::-webkit-input-placeholder, .form textarea::-webkit-input-placeholder {
+    color: black;
+}
+
+.form input:focus::-webkit-input-placeholder, .form textarea:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.form label {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    display: block;
+    transition: all 0.3s;
+    color: green;
+    visibility: hidden;
+    opacity: 0;
+
+}
+
+.form input:focus+label, .form textarea:focus+label {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(1rem);
+}

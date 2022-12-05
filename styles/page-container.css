@@ -1,0 +1,24 @@
+.page-container {
+    display: flex;
+    justify-content: center;
+ 
+ }
+ 
+ .page-container > .content-wrapper {
+    width: 1000px;
+ }
+ 
+ .page-container > .content-wrapper > #bir {
+    width: 350px;
+    margin: 25px;
+    float: left;
+    border: 1px solid black;
+ }
+ 
+ .page-container > .content-wrapper p {
+    letter-spacing: 1px;
+    line-height: 30px;
+ }
+ .skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper > .nav-link {
+    color: aliceblue;
+ }
