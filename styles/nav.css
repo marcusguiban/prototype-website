@@ -1,6 +1,6 @@
 .navigation-wrapper{
     height:190px;
-    background-color: greenyellow;
+    background-color: rgb(134, 167, 82);
     color: black;
     /* flexbox container */
     display: flex;
